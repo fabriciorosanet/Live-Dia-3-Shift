@@ -19,7 +19,7 @@ else
 {
     Console.WriteLine("Usuário e/ou senha inválidos!\nAcesso Negado!");
 }
-*/
+
 
 
  * Faça um programa que receba o total de compras de um usuário e um cupom.
@@ -46,7 +46,7 @@ else
 
 Console.WriteLine("Valor final: R$ {0}", valorFinal.ToString("0.00"));
 
-
+*/
 
 
 // Dados 3 numeros, informar qual é o maior
