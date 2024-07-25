@@ -21,10 +21,10 @@ else
 }
 */
 
-/*
+
  * Faça um programa que receba o total de compras de um usuário e um cupom.
  * Se o total de compras exceder 1000 ou se o cupom for igual a DESCONTO20 aplicar um desconto de 20% na compra.
- */
+ 
 
 double totalCompra;
 double valorFinal;
@@ -45,3 +45,45 @@ else
 }
 
 Console.WriteLine("Valor final: R$ {0}", valorFinal.ToString("0.00"));
+
+
+
+
+// Dados 3 numeros, informar qual é o maior
+
+// Entrada: 6 9 7   Saída: 9
+
+
+int n1, n2, n3;
+string usuario;
+int maior;
+
+
+Console.Write("Digite o primeiro número: ");
+usuario = Console.ReadLine();
+n1 = int.Parse(usuario);
+
+Console.Write("Digite o segundo número: ");
+usuario = Console.ReadLine();
+n2 = int.Parse(usuario);
+
+Console.Write("Digite o terceiro número: ");
+usuario = Console.ReadLine();
+n3 = int.Parse(usuario);
+
+maior = n1;
+
+if (n2 > maior)
+{
+    maior = n2;
+}
+
+if (n3 > maior)
+{
+    maior = n3;
+}
+
+Console.WriteLine($"O maior número é: {maior}");
+
+
+
